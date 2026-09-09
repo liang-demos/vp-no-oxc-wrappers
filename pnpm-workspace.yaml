@@ -1,0 +1,9 @@
+packages:
+  - .
+
+# The reproduction modifies installed files; never modify shared store files.
+enableGlobalVirtualStore: false
+packageImportMethod: copy
+
+# Reproduce the pinned release immediately, including within pnpm's default 24-hour delay.
+minimumReleaseAge: 0

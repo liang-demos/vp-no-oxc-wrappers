@@ -1,0 +1,10 @@
+{
+  "oxc.enable": true,
+  "oxc.enable.oxlint": true,
+  "oxc.enable.oxfmt": true,
+  "oxc.lint.run": "onType",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  }
+}
